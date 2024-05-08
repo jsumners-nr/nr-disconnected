@@ -34,9 +34,18 @@ jobs:
           cache: enable
       - run: |
           nrversions -v -r . 2>status.log >./compatibility.md
-      #      - run: |
-      #          git config user.name $GITHUB_ACTOR
-      #          git config user.email gh-actions-${GITHUB_ACTOR}@github.com
+
+      - run: |
+          git config user.name $GITHUB_ACTOR
+          git config user.email gh-actions-${GITHUB_ACTOR}@github.com
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          title: "docs: Updated compatibility report"
+          commit-message: "docs: Updated compatibility report"
+          branch: "compatibility-report/auto-update"
+          delete-branch: true
+          labels: "documentation"
+
       - uses: actions/upload-artifact@v4
         with:
           name: status.log
