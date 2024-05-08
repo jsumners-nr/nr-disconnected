@@ -23,7 +23,7 @@ jobs:
   local:
     runs-on: ubuntu-latest
     if:
-      github.event_name == 'pull_request' ||
+      github.event_name == 'push' ||
       (github.event_name == 'workflow_dispatch' &&
       (inputs.repo_target == 'local' || inputs.repo_target == 'both'))
     steps:
