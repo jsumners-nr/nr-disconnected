@@ -1,0 +1,130 @@
+[17:18:36.339] INFO: cloning repositories {}
+[17:18:36.339] DEBUG: cloning repo {
+  "url": "https://github.com/newrelic/newrelic-node-nextjs.git"
+}
+[17:18:36.339] DEBUG: cloning repo {
+  "url": "https://github.com/newrelic/newrelic-node-apollo-server-plugin.git"
+}
+[17:18:37.106] INFO: repository cloning complete {}
+[17:18:37.106] DEBUG: adding test dir {
+  "dir": "test/versioned"
+}
+[17:18:37.106] DEBUG: adding test dir {
+  "dir": "/tmp/newrelic146369671/tests/versioned"
+}
+[17:18:37.106] DEBUG: adding test dir {
+  "dir": "/tmp/newrelic718727738/tests/versioned"
+}
+[17:18:37.106] INFO: processing data {}
+[17:18:37.107] DEBUG: getting latest version for aws-sdk {}
+[17:18:37.107] DEBUG: getting latest version for amqplib {}
+[17:18:37.107] DEBUG: getting latest version for @aws-sdk/client-bedrock-runtime {}
+[17:18:37.107] DEBUG: getting latest version for @aws-sdk/client-sqs {}
+[17:18:37.107] DEBUG: getting latest version for bunyan {}
+[17:18:37.107] DEBUG: getting latest version for @aws-sdk/smithy-client {}
+[17:18:37.107] DEBUG: getting latest version for bluebird {}
+[17:18:37.107] DEBUG: getting latest version for @aws-sdk/client-sns {}
+[17:18:37.107] DEBUG: getting latest version for @smithy/smithy-client {}
+[17:18:37.107] DEBUG: getting latest version for @aws-sdk/client-dynamodb {}
+[17:18:37.107] DEBUG: getting latest version for cassandra-driver {}
+[17:18:37.108] DEBUG: getting latest version for connect {}
+[17:18:37.108] DEBUG: getting latest version for director {}
+[17:18:37.108] DEBUG: getting latest version for @elastic/elasticsearch {}
+[17:18:37.108] DEBUG: getting latest version for express {}
+[17:18:37.108] DEBUG: getting latest version for express {}
+[17:18:37.108] DEBUG: getting latest version for fastify {}
+[17:18:37.108] DEBUG: getting latest version for generic-pool {}
+[17:18:37.108] DEBUG: getting latest version for @grpc/grpc-js {}
+[17:18:37.108] DEBUG: getting latest version for @grpc/grpc-js {}
+[17:18:37.108] DEBUG: getting latest version for @hapi/hapi {}
+[17:18:37.108] DEBUG: getting latest version for ioredis {}
+[17:18:37.109] DEBUG: getting latest version for @langchain/core {}
+[17:18:37.109] DEBUG: getting latest version for koa-router {}
+[17:18:37.109] DEBUG: getting latest version for koa {}
+[17:18:37.109] DEBUG: getting latest version for @koa/router {}
+[17:18:37.109] DEBUG: getting latest version for koa-route {}
+[17:18:37.109] DEBUG: getting latest version for mongodb {}
+[17:18:37.109] DEBUG: getting latest version for mysql {}
+[17:18:37.109] DEBUG: getting latest version for mongodb {}
+[17:18:37.109] DEBUG: getting latest version for mysql2 {}
+[17:18:37.109] DEBUG: getting latest version for @nestjs/cli {}
+[17:18:37.109] DEBUG: getting latest version for openai {}
+[17:18:37.109] DEBUG: getting latest version for pg-native {}
+[17:18:37.109] DEBUG: getting latest version for pg {}
+[17:18:37.109] DEBUG: getting latest version for pino {}
+[17:18:37.109] DEBUG: getting latest version for pg-native {}
+[17:18:37.109] DEBUG: getting latest version for pg {}
+[17:18:37.109] DEBUG: getting latest version for @prisma/client {}
+[17:18:37.109] DEBUG: getting latest version for redis {}
+[17:18:37.109] DEBUG: getting latest version for superagent {}
+[17:18:37.110] DEBUG: getting latest version for restify {}
+[17:18:37.110] DEBUG: getting latest version for undici {}
+[17:18:37.110] DEBUG: getting latest version for winston {}
+[17:18:37.110] DEBUG: getting latest version for winston {}
+[17:18:37.110] DEBUG: getting latest version for next {}
+[17:18:37.110] DEBUG: getting latest version for @apollo/gateway {}
+[17:18:37.110] DEBUG: getting latest version for apollo-server-express {}
+[17:18:37.110] DEBUG: getting latest version for apollo-server {}
+[17:18:37.110] DEBUG: getting latest version for @apollo/server {}
+[17:18:37.110] DEBUG: getting latest version for apollo-server-fastify {}
+[17:18:37.110] DEBUG: getting latest version for apollo-server-koa {}
+[17:18:37.110] DEBUG: getting latest version for apollo-server-hapi {}
+[17:18:37.111] DEBUG: getting latest version for apollo-server-lambda {}
+[17:18:37.290] DEBUG: getting detailed info for @nestjs/cli {}
+[17:18:37.293] DEBUG: getting detailed info for koa {}
+[17:18:37.301] DEBUG: getting detailed info for generic-pool {}
+[17:18:37.304] DEBUG: getting detailed info for ioredis {}
+[17:18:37.307] DEBUG: getting detailed info for director {}
+[17:18:37.308] DEBUG: getting detailed info for pg-native {}
+[17:18:37.314] DEBUG: getting detailed info for pg {}
+[17:18:37.315] DEBUG: getting detailed info for @smithy/smithy-client {}
+[17:18:37.321] DEBUG: getting detailed info for @aws-sdk/client-bedrock-runtime {}
+[17:18:37.323] DEBUG: getting detailed info for @aws-sdk/client-dynamodb {}
+[17:18:37.324] DEBUG: getting detailed info for @apollo/server {}
+[17:18:37.325] DEBUG: getting detailed info for openai {}
+[17:18:37.325] DEBUG: getting detailed info for mysql2 {}
+[17:18:37.328] DEBUG: getting detailed info for connect {}
+[17:18:37.333] DEBUG: getting detailed info for @langchain/core {}
+[17:18:37.344] DEBUG: getting detailed info for bunyan {}
+[17:18:37.344] DEBUG: getting detailed info for bluebird {}
+[17:18:37.345] DEBUG: getting detailed info for cassandra-driver {}
+[17:18:37.346] DEBUG: getting detailed info for mongodb {}
+[17:18:37.350] DEBUG: getting detailed info for express {}
+[17:18:37.351] DEBUG: getting detailed info for express {}
+[17:18:37.352] DEBUG: getting detailed info for pg {}
+[17:18:37.352] DEBUG: getting detailed info for @apollo/gateway {}
+[17:18:37.356] DEBUG: getting detailed info for apollo-server-lambda {}
+[17:18:37.360] DEBUG: getting detailed info for @aws-sdk/client-sqs {}
+[17:18:37.363] DEBUG: getting detailed info for @grpc/grpc-js {}
+[17:18:37.364] DEBUG: getting detailed info for superagent {}
+[17:18:37.368] DEBUG: getting detailed info for @koa/router {}
+[17:18:37.368] DEBUG: getting detailed info for redis {}
+[17:18:37.376] DEBUG: getting detailed info for fastify {}
+[17:18:37.376] DEBUG: getting detailed info for mongodb {}
+[17:18:37.377] DEBUG: getting detailed info for winston {}
+[17:18:37.377] DEBUG: getting detailed info for apollo-server-hapi {}
+[17:18:37.378] DEBUG: getting detailed info for amqplib {}
+[17:18:37.380] DEBUG: getting detailed info for koa-router {}
+[17:18:37.380] DEBUG: getting detailed info for @aws-sdk/client-sns {}
+[17:18:37.381] DEBUG: getting detailed info for restify {}
+[17:18:37.385] DEBUG: getting detailed info for apollo-server-fastify {}
+[17:18:37.392] DEBUG: getting detailed info for apollo-server-koa {}
+[17:18:37.393] DEBUG: getting detailed info for @elastic/elasticsearch {}
+[17:18:37.393] DEBUG: getting detailed info for pg-native {}
+[17:18:37.405] DEBUG: getting detailed info for apollo-server-express {}
+[17:18:37.407] DEBUG: getting detailed info for @aws-sdk/smithy-client {}
+[17:18:37.413] DEBUG: getting detailed info for @hapi/hapi {}
+[17:18:37.421] DEBUG: getting detailed info for apollo-server {}
+[17:18:37.486] DEBUG: getting detailed info for aws-sdk {}
+[17:18:37.586] DEBUG: getting detailed info for mysql {}
+[17:18:37.587] DEBUG: getting detailed info for undici {}
+[17:18:37.594] DEBUG: getting detailed info for pino {}
+[17:18:37.594] DEBUG: getting detailed info for koa-route {}
+[17:18:37.633] DEBUG: getting detailed info for winston {}
+[17:18:38.290] DEBUG: getting detailed info for @prisma/client {}
+[17:18:38.300] DEBUG: getting detailed info for next {}
+[17:18:38.514] DEBUG: getting detailed info for @grpc/grpc-js {}
+[17:18:40.571] INFO: data processing complete {}
+[17:18:40.571] DEBUG: not removing directory . {}
+[17:18:40.571] DEBUG: removing directory /tmp/newrelic146369671 {}
+[17:18:40.575] DEBUG: removing directory /tmp/newrelic718727738 {}
