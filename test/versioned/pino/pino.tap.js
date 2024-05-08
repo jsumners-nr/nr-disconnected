@@ -5,6 +5,8 @@
 
 'use strict'
 
+// A random change to see what gets included in the automated PR.
+
 const tap = require('tap')
 const { sink, once } = require('pino/test/helper')
 const split = require('split2')
