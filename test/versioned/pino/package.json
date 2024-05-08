@@ -1,5 +1,6 @@
 {
   "name": "pino-tests",
+  "comment": "checking ci automation",
   "targets": [{"name":"pino","minAgentVersion":"8.11.0"}],
   "version": "0.0.0",
   "private": true,
