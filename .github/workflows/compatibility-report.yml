@@ -55,5 +55,6 @@ jobs:
           commit-message: "docs: Updated compatibility report"
           branch: "compatibility-report/auto-update"
           delete-branch: true
+          base: main
           labels: "documentation"
 
